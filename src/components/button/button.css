@@ -1,0 +1,13 @@
+@import "../style/extends.css";
+
+.button button {
+  background-color: var(--terciary-color); /* Green */
+  border: none;
+  font-size: 1rem;
+  color: white;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.4rem;
+}

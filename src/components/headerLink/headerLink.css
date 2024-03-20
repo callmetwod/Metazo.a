@@ -1,0 +1,15 @@
+@import '../style/extends.css';
+
+.headerLink {
+    width: 8rem;
+    padding: 0.5rem;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.headerLink a {
+    font-size: 1rem;
+    color: var(--off-white);
+    text-decoration: none;
+}

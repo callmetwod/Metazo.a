@@ -1,0 +1,27 @@
+@import '../style/extends.css';
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 0% 0% 1rem 1rem; 
+}
+
+.header img {
+    padding-right: 1rem;
+    height: 1rem;
+}
+
+.header input {
+    width: 31rem;
+    padding: 1rem;
+    margin: 1rem;
+    color: grey;
+    border-style: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--off-white);
+    border-radius: 0.6rem;
+}
