@@ -1,0 +1,12 @@
+@import '../style/extends.css';
+
+.slider {
+    padding-top: 2rem;
+}
+
+.slider-img {
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 20rem;
+}

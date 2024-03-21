@@ -1,0 +1,23 @@
+@import '../style/extends.css';
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    width: 4rem;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    height: 2rem;
+    width: 2rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: brown;
+    border-radius: 1rem;
+} */
+
+#category-slider {
+    padding: 1rem 0.5rem;
+}
