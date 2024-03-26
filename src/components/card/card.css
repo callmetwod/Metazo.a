@@ -1,0 +1,18 @@
+@import '../style/extends.css';
+
+.card{
+    position: relative;
+    margin: auto;
+    display: flex;
+    width: 12rem;
+    height: 17rem;
+    background-color: #d9d9d9;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+
+.profile{
+    padding-top: 20px;
+    /* background-color: red; */
+}
+
