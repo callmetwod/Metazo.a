@@ -1,0 +1,16 @@
+@import '../style/extends.css';
+
+.profile-icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 105px;
+    width: 105px;
+    background-color: #c9c9c9;
+    border-radius: 40%;
+}
+
+.profile-icon img {
+    height: 60%;
+    align-items: center;
+}
