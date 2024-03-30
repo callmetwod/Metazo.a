@@ -11,8 +11,11 @@
     border-radius: 1.5rem;
 }
 
-.profile{
+.profile-properties{
     padding-top: 20px;
     /* background-color: red; */
 }
 
+.icon{
+    margin-left: -20px;
+}
