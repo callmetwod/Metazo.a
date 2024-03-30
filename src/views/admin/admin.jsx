@@ -10,6 +10,7 @@ import Button from '../../components/button/button';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Navigation, Pagination} from 'swiper/modules';
 
 export default function Admin() {
 
@@ -66,10 +67,36 @@ export default function Admin() {
                 </div>
                 <div className="cards">
                     <Swiper
+                    modules={[Navigation, Pagination]}
                         slidesPerView={6}
                         effect="coverflow"
                         grabCursor={true}
                         className="mySwiper"
+                        pagination={{
+                            dynamicMainBullets: true,
+                            type: "bullets"
+                        }}
+                        breakpoints={{
+                            // when window width is >= 
+                            0:{
+                                slidesPerView: 1
+                            },
+                            640: {
+                              slidesPerView: 2,
+                            },
+                            768: {
+                              slidesPerView: 3,
+                            },
+                            1024: {
+                              slidesPerView: 4,
+                            },
+                            1440: {
+                              slidesPerView: 5,
+                            },
+                            2560: {
+                              slidesPerView: 7,
+                            },
+                          }}
                     >
                         {<div swipers>
                             {

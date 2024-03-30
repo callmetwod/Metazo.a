@@ -42,10 +42,10 @@ export default function CardsSlider(params) {
                 slidesPerView={6}
                 effect="coverflow"
                 grabCursor={true}
-                // pagination={{
-                //     dynamicMainBullets: true,
-                //     type: "bullets"
-                // }}
+                pagination={{
+                    dynamicMainBullets: true,
+                    type: "bullets"
+                }}
                 /* height: 100%; */
 
                 modules={[Pagination, Navigation]}
