@@ -3,6 +3,9 @@
 Basicamente é uma API que contém informações de ONGS de proteção animal e serviços de SOS como bombeiros para encontros com animais selvagens como: **Nome, Endereço, Telefone, etc*, cadastro de animais para adoção e visualização de animais que estão disponíveis para adoção, cadastro de funcionários e de usuários, como também agências de adoção e novas ONGS.
 Atualmente há o consumo de 3 categorias: Users, Professionals e SOSs.
 
+![image](https://github.com/callmetwod/Metazo.a/assets/90729142/560a90b6-1b39-4124-b1b9-5f74251f1503)
+
+
 **URL PARA CONSUMO DA API** =  https://metazoa-api.onrender.com 
 
 (Todos os dados estão hospedados na https://railway.app/ numa imagem em MySql)
