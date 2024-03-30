@@ -4,7 +4,7 @@ import ProfileIcon from "../profileIcon/profileIcon";
 export default function ProfileBar(props) {
   return (
     <div className="profile-container">
-      <ProfileIcon/>
+      <ProfileIcon icon={'height: 20px'}/>
       <div className="profile-username">{props.name}</div>
     </div>
   );
